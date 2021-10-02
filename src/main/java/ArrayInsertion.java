@@ -38,7 +38,7 @@ public class ArrayInsertion{
 		System.out.println();
 	}
 
-	public static void main(String [] args){
+/*	public static void main(String [] args){
 		int [] array = new int[10];
 		insert(array,1,0);
 		insert(array,5,2);
@@ -48,5 +48,6 @@ public class ArrayInsertion{
 		insert(array,90,3);
 		insert(array,16,7);
 	}
+	*/
 }	 
 		

@@ -24,21 +24,21 @@ public class Array_Insertion_Test {
 	}
 	@Test
 	public void test() {
-		Object.insert(array,56,1);
+		array=Object.insert(array,56,1);
 		assertEquals(56,array[1]);
 	}
 	
 	@Test
 	public void array_index_out_of_bound() {
 
-		Object.insert(array,88,-1);
+		array=Object.insert(array,88,-1);
 	    assertEquals(array[-1],88);
 	}
 	
 	@Test
 	public void Size_test() {
 
-		Object.insert(array,88,size);
+		array=Object.insert(array,88,size);
 		assertEquals(88,array[size]);
 	}
 	@Test
@@ -50,7 +50,7 @@ public class Array_Insertion_Test {
 		Object.insert(array,8,8);
 		Object.insert(array,8,9);
 		
-		Object.insert(array,37,9);
+		array=Object.insert(array,37,9);
 		assertEquals(37,array[9]);
 	}
 
